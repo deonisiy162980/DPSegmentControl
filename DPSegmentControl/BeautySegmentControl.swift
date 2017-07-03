@@ -12,7 +12,7 @@ import UIKit
 {
     fileprivate var arrayOfButtons = [UIButton]()
     fileprivate var line : CALayer!
-    var delegate : DPSegmentControlDelegate?
+    public var delegate : DPSegmentControlDelegate?
     
     //строка названий кнопок
     @IBInspectable
